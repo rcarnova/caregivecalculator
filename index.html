@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<!-- saved from url=(0076)file:///Users/rosariocarnovale/Downloads/epassi_caregiving_assessment_3.html -->
-<html lang="it"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Calcolatore Caregiving — Epassi</title>
 <style>
 @font-face {
@@ -41,7 +41,7 @@
     --text-3:       #A0613A;
     --border:       rgba(97,31,0,0.1);
     --border-strong:rgba(97,31,0,0.2);
-    --display: 'Playfair Display', Georgia, serif;
+    --display: 'Inclusive Sans', Arial, sans-serif;
     --body:    'Inclusive Sans', Arial, sans-serif;
     --radius:    16px;
     --radius-sm: 10px;
@@ -354,48 +354,7 @@
 </div>
 
 <div class="assessment-wrap">
-  <div class="card" id="card">
-    <div class="progress-wrap">
-      <div class="progress-top"><span>Step 1 di 3</span><span>0%</span></div>
-      <div class="progress-track"><div class="progress-fill" style="width:0%"></div></div>
-    </div>
-      <div class="step-kicker">Contesto aziendale</div>
-      <div class="step-title">In quale settore opera<br>la tua azienda?</div>
-      <div class="step-sub">Il contesto di settore influenza significativamente l'incidenza del caregiving tra i dipendenti.</div>
-      <div class="options-grid">
-        
-          <div class="opt" data-id="health" onclick="pick(&#39;sector&#39;,&#39;health&#39;)">
-            <div class="opt-icon">🏥</div>
-            <div class="opt-label">Sanità e sociale</div>
-            <div class="opt-desc">ospedali, RSA, cooperative</div>
-          </div>
-          <div class="opt" data-id="industry" onclick="pick(&#39;sector&#39;,&#39;industry&#39;)">
-            <div class="opt-icon">🏭</div>
-            <div class="opt-label">Industria e manifattura</div>
-            <div class="opt-desc">produzione, logistica</div>
-          </div>
-          <div class="opt" data-id="services" onclick="pick(&#39;sector&#39;,&#39;services&#39;)">
-            <div class="opt-icon">💼</div>
-            <div class="opt-label">Servizi professionali</div>
-            <div class="opt-desc">consulenza, tech, finanza</div>
-          </div>
-          <div class="opt" data-id="retail" onclick="pick(&#39;sector&#39;,&#39;retail&#39;)">
-            <div class="opt-icon">🛒</div>
-            <div class="opt-label">Commercio e retail</div>
-            <div class="opt-desc">GDO, distribuzione</div>
-          </div>
-          <div class="opt" data-id="pa" onclick="pick(&#39;sector&#39;,&#39;pa&#39;)">
-            <div class="opt-icon">🏛️</div>
-            <div class="opt-label">Pubblica amministrazione</div>
-            <div class="opt-desc">enti, comuni, scuole</div>
-          </div>
-          <div class="opt" data-id="other" onclick="pick(&#39;sector&#39;,&#39;other&#39;)">
-            <div class="opt-icon">📋</div>
-            <div class="opt-label">Altro settore</div>
-            
-          </div>
-      </div>
-      <button class="btn-primary" id="btn-next" onclick="nextStep()" disabled="">Continua →</button></div>
+  <div class="card" id="card"></div>
   <p class="disclaimer" id="disclaimer"></p>
 </div>
 
@@ -673,6 +632,5 @@ function showFormError(msg) {
 
 render();
 </script>
-
-
-</body></html>
+</body>
+</html>
